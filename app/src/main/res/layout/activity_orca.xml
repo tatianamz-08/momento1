@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9A86C"
+    tools:context=".Orca">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Orca"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="291dp"
+        android:layout_height="449dp"
+        app:srcCompat="@drawable/orca2"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="326dp"
+        android:layout_height="161dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Depredadores acuaticos bastante inteligentes.
+                      Van en manada y no tienen depredadores."
+        android:textAlignment="center"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#732002"
+        android:text="Volver"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="753dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
